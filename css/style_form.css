@@ -1,0 +1,43 @@
+
+.thanks-message {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    margin: auto;
+}
+
+h3 {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #66d1c1;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+h4 {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #545454;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+@media screen and (max-width : 768px) {
+
+    h3 {
+        font-size: 1.5em;
+    }
+    
+    h4 {
+        font-size: 1em;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    
+}
+
+

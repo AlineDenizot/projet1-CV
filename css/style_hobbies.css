@@ -1,0 +1,44 @@
+/*HOBBIES*/
+
+.contenu {
+    min-height: 100vh;
+}
+
+.giffy {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 0 auto;
+    }
+    
+h2 {
+    text-align: center;
+    }
+
+.imageg {
+    width: 100%;
+    min-height: 100vh;
+}    
+.contenu {
+    height: 100%;
+}
+
+.middle{
+    width: 38em;
+    display: block ;
+    height: auto;
+
+}
+.menu {
+    width: 40%;
+    height: 100vh;
+}
+
+
+@media screen and (max-width : 768px) {
+    .giffy {
+        width: 45%;
+        height: 45%;
+    }
+
+}

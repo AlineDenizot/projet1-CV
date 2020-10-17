@@ -1,0 +1,16 @@
+.floatToLeft {
+    float: left;
+    text-align: left;
+}
+.floatToRight {
+    float: right;
+    text-align: right;
+}
+
+hr {
+    display: none;
+}
+
+img{
+    width: 100%;
+}

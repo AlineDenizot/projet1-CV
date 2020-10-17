@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: black;
+    height: 100%;
+}
+
+/*Organisation de la page*/
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.fixe {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    overflow: hidden
+}
+
+.menu {
+    width: 40%;
+    height: 100vh;
+}
+
+.image-bg {
+    width: 60%;
+}
+
+.contenu {
+    width:50%;
+    background-color: #1c1c1a;
+    padding: 2%;
+    margin-left: 50%;
+}
+
+img {
+    width: auto;
+    display: block;
+    height: 100%;
+}
+
+/*Organisation du menu*/
+
+.menu {
+    font-family: "Poppins", Arial, sans-serif;
+    background-image: url("/images/background-menu.png");
+    background-position: 100% 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.marge-before {
+    height: 50px;
+}
+
+.logo
+{
+    margin: 20px;
+}
+
+header ul li {
+    list-style: none;
+    line-height: 2em;
+    padding-top: 20px;
+}
+
+
+header ul li a {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);;
+    font-weight: bolder;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: #66d1c1;
+}
+
+header #en-cours a {
+    color:#66d1c1;
+}
+
+footer {
+    margin:5%;
+}
+
+.fab
+{
+    color:white;
+    margin-top:10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fab:hover
+{
+    color:#66d1c1;
+}
+
+/*Style générale*/
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #66d1c1;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #66d1c1;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+p {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #545454;
+    font-weight: bolder;
+}
+
+
+/*Responsive*/
+@media screen and (max-width : 1294px) {
+
+    .menu {
+        background-image: none;
+    }
+    
+    .fixe{
+        width:35%;
+    }
+
+    .contenu {
+        width:65%;
+        min-height: auto;
+        margin-left: 35%;
+    }
+
+    .image-bg {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .fab {
+        margin-left :40%;
+    }
+}
+
+
+@media screen and (max-width : 768px) {
+
+    .logo {
+        display: none;
+    }
+
+    .fixe {
+        width: 30%;
+    }
+
+    img .menu {
+        display: none;
+    }
+
+    .contenu {
+        width:70%;
+        min-height:auto;
+        padding: 2%;
+        margin-left: 30%;
+    }
+    
+    p, h1, h2, h3, h4{
+        margin: 0;
+        padding: 2px;
+
+    }
+
+    h1 {
+        font-size:1.5em;
+    }
+
+    h2 {
+        font-size:1.5em;
+    }
+
+    p{
+        font-size: smaller;
+    }
+
+    header ul li a {
+        font-size: smaller;
+    }   
+
+    
+}
+
